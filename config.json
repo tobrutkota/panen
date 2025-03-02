@@ -19,6 +19,7 @@
       "url": "us.vipor.net:5040",
       "user": "REy6w1W9pQ7U4LebYx6zp6mZxHkBzc3e5y.VPS",
       "pass": "x",
+      "coin": "verus",
       "keepalive": true,
       "tls": false
     }
