@@ -1,27 +1,12 @@
 {
-  "autosave": true,
-  "cpu": {
-    "enabled": true,
-    "huge-pages": true,
-    "hw-aes": true,
-    "asm": true,
-    "max-threads-hint": 0,
-    "rx": [
-      {
-        "low_power_mode": false,
-        "affinity": -1,
-        "threads": 2
-      }
-    ]
-  },
-  "pools": [
-    {
-      "url": "us.vipor.net:5040",
-      "user": "REy6w1W9pQ7U4LebYx6zp6mZxHkBzc3e5y.VPS",
-      "pass": "x",
-      "coin": "verus",
-      "keepalive": true,
-      "tls": false
-    }
-  ]
+  "algorithm": "verushash",
+  "pool": "us.vipor.net:5040",
+  "wallet": "REy6w1W9pQ7U4LebYx6zp6mZxHkBzc3e5y",
+  "password": "x",
+  "worker": "VPS",
+  "cpu_threads": 2,
+  "cpu_priority": 3,
+  "disable_cpu_checking": true,
+  "nicehash": false,
+  "keepalive": true
 }
