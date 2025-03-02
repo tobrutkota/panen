@@ -1,0 +1,26 @@
+{
+  "autosave": true,
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": true,
+    "asm": true,
+    "max-threads-hint": 0,
+    "rx": [
+      {
+        "low_power_mode": false,
+        "affinity": -1,
+        "threads": 2
+      }
+    ]
+  },
+  "pools": [
+    {
+      "url": "us.vipor.net:5040",
+      "user": "REy6w1W9pQ7U4LebYx6zp6mZxHkBzc3e5y.VPS",
+      "pass": "x",
+      "keepalive": true,
+      "tls": false
+    }
+  ]
+}
