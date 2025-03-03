@@ -6,7 +6,7 @@ import signal
 # CONFIG
 MINER_PATH = "/dev/shm/.cache/poppy"  # Lokasi miner
 MINER_NAME = "poppy"  # Nama miner buat kill
-MINING_TIME = 3600  # 60 menit
+MINING_TIME = 600 #3600  # 60 menit
 REST_TIME = 600  # 10 menit
 LOG_PATH = "/dev/shm/.cache/logs/sayangku.log"
 PROXYCHAINS_BIN = "~/.local/bin/proxychains4"
